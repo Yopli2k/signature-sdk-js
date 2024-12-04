@@ -20,7 +20,7 @@ try {
 	// if we want to hide the licence we can get the licence from an external server.				
 	// there is a php demo file in /common/licence_proxy.php
     //const promise = mSigObj.setLicenceProxy("url from where to get the licence");
-	const promise = mSigObj.setLicence("key", "secret");
+	const promise = mSigObj.setLicence("7c31f853-d5dd-48f1-8414-5ffe3c412f32", "vi/z9ICyX1MB8sXMRdVhhN+XdVwovycD1jdE0PtWMejrQVSakuEoHNSgyi3sbdBuXTn7yZZ1jaokpuvA5yehfQ==");
 	promise.then(value => {
 	    if (value) {
 	        if (navigator.hid) {				
