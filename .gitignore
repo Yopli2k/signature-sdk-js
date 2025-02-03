@@ -1,0 +1,17 @@
+# Ignore Software Folders
+/.idea/
+/.git/
+/doc/
+/nbproject/
+/node_modules/
+/vendor/
+/MyFiles/
+
+# Ignore special files
+.DS_Store
+.htaccess
+.vscode
+*.cache
+*.lock
+*.bak
+
